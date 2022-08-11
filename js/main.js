@@ -19,3 +19,18 @@ console.log(myCity);
 myCity.country= 'Belarus';
 console.log(myCity);
 
+
+//task 2
+
+const myPerson={
+  name: 'Nastya',
+  age:25, 
+
+}
+if ('age' in myPerson){
+  console.log(true);
+}
+else {
+  console.log(false);
+}
+
