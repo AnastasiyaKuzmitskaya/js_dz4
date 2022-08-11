@@ -50,3 +50,20 @@ const student = {
 
   console.log(`${key} - ${student[key]}`)
   }
+
+
+
+
+  
+
+//task 4
+const colors = {
+  'ru pum pu ru rum': {       // вложенный объект
+      red: 'красный',
+      green: 'зеленый',
+      blue: 'синий'
+  },
+};
+console.log(colors['ru pum pu ru rum'].red);
+
+console.log(colors['ru pum pu ru rum'].blue);
