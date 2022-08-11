@@ -34,3 +34,19 @@ else {
   console.log(false);
 }
 
+
+
+
+//task 3
+const student = {
+  name: 'John',
+  age: 19,
+  isHappy: true
+}
+  for (const key in student) {
+  console.log(key);
+  console.log(student[key]);
+
+
+  console.log(`${key} - ${student[key]}`)
+  }
