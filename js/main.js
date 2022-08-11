@@ -67,3 +67,25 @@ const colors = {
 console.log(colors['ru pum pu ru rum'].red);
 
 console.log(colors['ru pum pu ru rum'].blue);
+
+
+
+//task 5
+
+const salaries = {
+  andrei: 500,
+  sveta: 413,
+  anton: 987,
+  andrey: 664,
+  alexandra: 199
+}
+
+let sum = 0;
+let count = 0;
+for( const person in salaries){
+  sum+= salaries[person]
+  count++;
+}
+const result = sum/count;
+
+console.log(result);
