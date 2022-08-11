@@ -89,3 +89,26 @@ for( const person in salaries){
 const result = sum/count;
 
 console.log(result);
+
+
+
+
+//task 6
+
+const login= prompt('Enter is your login?');
+const password= prompt( 'Enter is your password?');
+
+const user = {
+  login,
+  password
+};
+
+const validateLogin=prompt('Enter is your login for verify:');
+const validatePassword=prompt('Enter is your password for verify:');
+
+if(validateLogin === user.login && validatePassword === user.password){
+  console.log( 'Добро пожалоВать')
+}
+else{
+  console.log('Не правильный логин и пароль')
+}
